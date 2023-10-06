@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />    
     <!-- my style -->
     <link rel="stylesheet" href="./style.css">
+    <!-- swipper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 
     
 
@@ -16,12 +18,12 @@
 <body>
     <!-- Hedaer -->
     <header class="main-sectoion flex justify-center m-2 text-3xl text-[#F1B4BB] md:text-[#1F4172] md:absolute md:m-1 md:left-4">
-        <h1 class="md:border-0 border-b-4 border-slate-500 p-5 md:p-0">سایت پورتفیلو</h1>
+        <h1 class="txt-shadoww md:border-0 border-b-4 border-slate-500 p-5 md:p-0 font-bold">سایت پورتفیلو</h1>
     </header>
 
     <header>
 
-        <button id="menu-btn" class="material-symbols-outlined absolute top-7 right-3 text-4xl  hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white py-1 px-2 rounded-lg md:hidden">
+        <button id="menu-btn" class="material-symbols-outlined absolute top-7 right-3 text-4xl  hover:bg-slate-900 hover:text-[#F1B4BB] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#F1B4BB] py-1 px-2 rounded-lg md:hidden">
             menu
         </button>
 
@@ -41,15 +43,30 @@
     <section class="main-sectoion flex items-end justify-center md:h-[45vh] h-[35vh]">
         <div class=" md:w-1/2 border border-slate-500 rounded-lg text-center p-4 center-divMain">
             <h1 class="text-3xl font-bold mb-4 ">حاج آقا خوش آمدید!</h1>
-            <span>لورم شوم شاید لورمم تو باشی!</span>
+            <span>مثالی از نمونه کارها را میتوانید ببنید.</span>
         </div>
     </section>
     <div class="flex justify-center">
         <hr class="w-5/6"/>
     </div>
-    <section>
-        <div>Swiiper</div>
-        <div>txt-swipper</div>
+    <section class="flex justify-center">
+        <div class="swiper md:w-4/5 h-[70vh] m-7 shadow-lg border border-slate-500 border-b-0 rounded-lg">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              
+            </div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
     </section>
 
 
@@ -61,6 +78,9 @@
 
 <!-- tailwind CDN -->
 <script src="https://cdn.tailwindcss.com"></script>
+<!-- swiper script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
 
 <!-- my script -->
 <script src="./script.js"></script>

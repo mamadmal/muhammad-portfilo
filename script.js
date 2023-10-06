@@ -1,3 +1,4 @@
+// sm view header toggle 
 document.addEventListener('DOMContentLoaded', function() {
     const menuButton = document.getElementById('menu-btn');
     const mobileMenu = document.getElementById('sm-menu');
@@ -12,4 +13,27 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
 
+  });
+
+
+  // swipper 
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+    autoplay: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
   });

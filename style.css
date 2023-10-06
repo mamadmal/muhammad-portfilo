@@ -21,6 +21,14 @@ backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
 }
+
+.txt-shadoww{
+  text-shadow: 5px 3px 12px #CECECE;
+}
+.swiper {
+  height: 300px;
+}
+
 .HEEE{
     color:#132043 ;
     color:#1F4172;
