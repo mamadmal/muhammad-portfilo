@@ -50,7 +50,7 @@
         <hr class="w-5/6"/>
     </div>
     <section class="flex justify-center">
-        <div class="swiper md:w-4/5 h-fit md:h-[70vh] m-7 shadow-lg border border-slate-500 border-b-0 rounded-lg">
+        <div dir="ltr" class="swiper md:w-4/5 h-fit md:h-[70vh] m-7 shadow-lg border border-slate-500 border-b-0 rounded-lg">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
@@ -67,8 +67,13 @@
             </div>
           
             <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <div class="opacity-[0.1] md:opacity-[1] swiper-button-prevv h-full absolute z-[999999999999999999999] flex items-center top-[0] p-7 pl-3 text-white btn-swipper">
+                <span class="material-symbols-outlined border border-white rounded-full p-2">west</span>
+            </div>
+
+            <div class="opacity-[0.1] md:opacity-[1] swiper-button-nextt h-full absolute z-[999999999999999999999] flex items-center top-[0] right-0 p-7 pl-3 text-white btn-swipper">
+                <span class="material-symbols-outlined border border-white rounded-full p-2">east</span>
+            </div>
           
             <!-- If we need scrollbar -->
             <div class="swiper-scrollbar"></div>

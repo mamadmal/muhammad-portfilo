@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function() {
   
     // Navigation arrows
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-button-nextt',
+      prevEl: '.swiper-button-prevv',
     },
   
     // And if we need scrollbar
