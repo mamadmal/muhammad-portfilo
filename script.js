@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // swipper 
   const swiper = new Swiper('.swiper', {
     loop: true,
-    autoplay: true,
+    //autoplay: true,
   
     // If we need pagination
     pagination: {
